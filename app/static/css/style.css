@@ -1,0 +1,85 @@
+body {
+    background-color: #f5efe6;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3c2f2f;
+}
+
+header {
+    background-color: #ddb892;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 40px auto;
+    max-width: 700px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.form-card textarea {
+    width: 100%;
+    height: 120px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    resize: none;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1em;
+    background-color: #b08968;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #9c6644;
+}
+
+.result-card {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 20px;
+}
+
+.result-card.positive {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.result-card.negative {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.result-card.neutral {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #e6ccb2;
+    color: #4a3f35;
+    border-top: 1px solid #ddd;
+}

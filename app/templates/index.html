@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sentiment Insights</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>🌸 Sentiment Insights</h1>
+        <p>Understand how your customers really feel about your products.</p>
+    </header>
+
+    <section class="form-card">
+        <h2>Analyze a Product Review 🧾</h2>
+        <form method="post" action="/predict">
+            <textarea name="review" placeholder="Paste your review here..." required>{{ review or '' }}</textarea>
+            <button type="submit">Classify</button>
+        </form>
+    </section>
+
+    {% if result %}
+    <section class="result-card {{ result }}">
+        <p><strong>Predicted Sentiment:</strong> {{ result.upper() }}</p>
+    </section>
+    {% endif %}
+
+    <footer>
+        <p>🧠 Powered by Machine Learning | Designed by Prerana G</p>
+    </footer>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
