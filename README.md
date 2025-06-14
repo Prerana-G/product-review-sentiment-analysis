@@ -20,8 +20,8 @@ Simply enter a review, and the app will classify it as **Positive**, **Neutral**
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/product-review-sentiment-analyzer.git
-cd product-review-sentiment-analyzer
+git clone https://github.com/your-username/product-review-sentiment-analysis.git
+cd product-review-sentiment-analysis
 ```
 
 ### 2. Set Up a Virtual Environment
