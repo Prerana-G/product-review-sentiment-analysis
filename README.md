@@ -68,6 +68,12 @@ Type a product review like:
 
 ---
 
+## 🚀 Live Demo  
+Check out the live sentiment analysis app here:  
+👉 [**Sentilyzer on Render**](https://sentiment-analyzer-2t9h.onrender.com/)
+
+---
+
 ## 💌 Thanks for Visiting!
 
 This was a fun project.  
